@@ -1,0 +1,73 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+header{
+  top: 25%;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  
+}
+header>a:link{
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: black;
+}
+header>h1{
+  color: black;
+
+}
+body{
+
+}
+
+.createNew {
+  width:200px;
+  margin:0 auto;
+  
+}
+#card{
+  clear:both;
+    background-color: #FFEB3B;
+    height: 80px auto;
+  
+      margin-bottom: 10px;
+}
+
+
+.createNew{
+  clear: both;
+}
+.list{
+  width: 30%;
+  height:30px;
+}
+

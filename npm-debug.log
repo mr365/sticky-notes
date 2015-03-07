@@ -1,0 +1,125 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'underscore' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'underscore', null ]
+6 verbose cache add name=undefined spec="underscore" args=["underscore",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'underscore',
+7 verbose parsed url   path: 'underscore',
+7 verbose parsed url   href: 'underscore' }
+8 silly lockFile 64bc6893-underscore underscore
+9 verbose lock underscore /Users/mari/.npm/64bc6893-underscore.lock
+10 silly lockFile 64bc6893-underscore underscore
+11 silly lockFile 64bc6893-underscore underscore
+12 verbose addNamed [ 'underscore', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 7629b758-underscore underscore@
+15 verbose lock underscore@ /Users/mari/.npm/7629b758-underscore.lock
+16 silly addNameRange { name: 'underscore', range: '*', hasData: false }
+17 verbose request where is /underscore
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 0d36cdb3604d35f8
+20 verbose url raw /underscore
+21 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+22 verbose url resolved https://registry.npmjs.org/underscore
+23 verbose request where is https://registry.npmjs.org/underscore
+24 info trying registry request attempt 1 at 13:50:27
+25 verbose etag "356VQBSLUXCUYF1C109LAJDYZ"
+26 http GET https://registry.npmjs.org/underscore
+27 http 200 https://registry.npmjs.org/underscore
+28 silly registry.get cb [ 200,
+28 silly registry.get   { date: 'Sat, 07 Mar 2015 18:50:27 GMT',
+28 silly registry.get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+28 silly registry.get     etag: '"826EMLBJR01YVMQ1F46BAITI9"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     'content-length': '38724',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '7',
+28 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1425754227.389491,VS0,VE0',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly addNameRange number 2 { name: 'underscore', range: '*', hasData: true }
+30 silly addNameRange versions [ 'underscore',
+30 silly addNameRange   [ '1.0.3',
+30 silly addNameRange     '1.0.4',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.1.1',
+30 silly addNameRange     '1.1.2',
+30 silly addNameRange     '1.1.3',
+30 silly addNameRange     '1.1.4',
+30 silly addNameRange     '1.1.5',
+30 silly addNameRange     '1.1.6',
+30 silly addNameRange     '1.1.7',
+30 silly addNameRange     '1.2.0',
+30 silly addNameRange     '1.2.1',
+30 silly addNameRange     '1.2.2',
+30 silly addNameRange     '1.2.3',
+30 silly addNameRange     '1.2.4',
+30 silly addNameRange     '1.3.0',
+30 silly addNameRange     '1.3.1',
+30 silly addNameRange     '1.3.2',
+30 silly addNameRange     '1.3.3',
+30 silly addNameRange     '1.4.0',
+30 silly addNameRange     '1.4.1',
+30 silly addNameRange     '1.4.2',
+30 silly addNameRange     '1.4.3',
+30 silly addNameRange     '1.4.4',
+30 silly addNameRange     '1.5.0',
+30 silly addNameRange     '1.5.1',
+30 silly addNameRange     '1.5.2',
+30 silly addNameRange     '1.6.0',
+30 silly addNameRange     '1.7.0',
+30 silly addNameRange     '1.8.0',
+30 silly addNameRange     '1.8.1',
+30 silly addNameRange     '1.8.2' ] ]
+31 verbose addNamed [ 'underscore', '1.8.2' ]
+32 verbose addNamed [ '1.8.2', '1.8.2' ]
+33 silly lockFile 004e52f6-underscore-1-8-2 underscore@1.8.2
+34 verbose lock underscore@1.8.2 /Users/mari/.npm/004e52f6-underscore-1-8-2.lock
+35 silly lockFile 922b9b3e--underscore-underscore-1-8-2-tgz https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+36 verbose lock https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz /Users/mari/.npm/922b9b3e--underscore-underscore-1-8-2-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz',
+37 verbose addRemoteTarball   '64df2eb590899de950782f3735190ba42ebf311d' ]
+38 info retry fetch attempt 1 at 13:50:27
+39 verbose fetch to= /var/folders/nl/chjk1mpx67l80w4y6xfq7smm0000gn/T/npm-886-ikvwkqYv/registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+40 http GET https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+41 http 200 https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+42 silly lockFile 922b9b3e--underscore-underscore-1-8-2-tgz https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+43 silly lockFile 922b9b3e--underscore-underscore-1-8-2-tgz https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+44 silly lockFile 004e52f6-underscore-1-8-2 underscore@1.8.2
+45 silly lockFile 004e52f6-underscore-1-8-2 underscore@1.8.2
+46 silly lockFile 7629b758-underscore underscore@
+47 silly lockFile 7629b758-underscore underscore@
+48 error Error: EACCES, mkdir '/Users/mari/.npm/underscore/1.8.2'
+48 error  { [Error: EACCES, mkdir '/Users/mari/.npm/underscore/1.8.2']
+48 error   errno: 3,
+48 error   code: 'EACCES',
+48 error   path: '/Users/mari/.npm/underscore/1.8.2',
+48 error   parent: 'angular-seed' }
+49 error Please try running this command again as root/Administrator.
+50 error System Darwin 14.1.0
+51 error command "node" "/usr/local/bin/npm" "install" "underscore"
+52 error cwd /Users/mari/Desktop/notebook
+53 error node -v v0.10.35
+54 error npm -v 1.4.28
+55 error path /Users/mari/.npm/underscore/1.8.2
+56 error code EACCES
+57 error errno 3
+58 error stack Error: EACCES, mkdir '/Users/mari/.npm/underscore/1.8.2'
+59 verbose exit [ 3, true ]

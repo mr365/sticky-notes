@@ -1,0 +1,9 @@
+<form>
+	<div class="form-group">
+		<input type="text" id="typedData"class="form-control" rows="3" maxlength="240" ng-model="inputMessage"  placeholder="Beacause not everything can be remembered"></input>
+		<label for="Charc left">Characters left:</label> <span class="badge">{{ 240-inputMessage.length }}</span>
+		<div class="createNew">
+		<a href="#list" class="btn btn-primary btn-lg" ng-click="save()" role="button">Save</a>
+		</div>
+	</div>
+</form>

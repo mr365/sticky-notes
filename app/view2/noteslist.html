@@ -1,0 +1,17 @@
+
+<section class="row">
+	
+	<div class="col" ng-repeat = 'x in savedNotes'>
+	<section id ="list">
+			<div class="col-md-8 col-md-offset-2" id="card">
+				<p> {{x}} </p>
+			</div>	
+			<div class="col-md-2">
+				<span><button class = 'btn btn-danger' ng-click = deleteNote($index)>Delete</button></span>
+			</div>
+	</section>
+	</div>
+	<div class="createNew">
+	<a class="btn btn-primary btn-lg" href="#new" role="button">Create your own note</a>
+	</div>
+</section>
